@@ -34,7 +34,7 @@ style="width:0.65634in;height:0.51049in"
 alt="Test data for this criteria is supplied by ONC or the test tool. " /></td>
 </tr>
 <tr class="odd">
-<td colspan="5">Version 2.0 Updated 04-06-2022</td>
+<td colspan="5">Test Procedure Version 2.1 Last Updated 06-01-2022</td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +82,7 @@ prescribe the order in which the test should take place.
 Scopes.” Corrected applicable launch scenarios in Step 13 of
 “Authentication and Authorization for Patient and User Scopes.” Amended
 Step 10 of “Authentication and Authorization for Patient and User
-Scopes” by removing non-USCDI mapped US Core IG FHIR resources.</td>
+Scopes” by removing non-USCDI mapped US Core IG FHIR®® resources.</td>
 <td>08-07-2020</td>
 </tr>
 <tr class="odd">
@@ -146,7 +146,7 @@ data elements.</u></td>
 <tr class="odd">
 <td>1.8</td>
 <td><blockquote>
-<p>Updated the link for § 170.215(a)(2) FHIR® US Core Implementation
+<p>Updated the link for § 170.215(a)(2) FHIR®® US Core Implementation
 Guide STU V3.1.1</p>
 </blockquote></td>
 <td>11-03-21</td>
@@ -155,8 +155,8 @@ Guide STU V3.1.1</p>
 <td>1.9</td>
 <td><blockquote>
 <p>Updated the Bulk Data IG references in “Standard(s) Referenced” from
-“HL7® FHIR® Bulk Data Access (Flat FHIR®) (V1.0.0:STU 1)” to the
-ONC-approved errata version “HL7® FHIR® Bulk Data Access (Flat FHIR®)
+“HL7® FHIR®® Bulk Data Access (Flat FHIR®®) (V1.0.0:STU 1)” to the
+ONC-approved errata version “HL7® FHIR®® Bulk Data Access (Flat FHIR®®)
 (V1.0.1:STU 1)” that is now effective for testing.</p>
 </blockquote></td>
 <td>12-08-21</td>
@@ -167,6 +167,15 @@ ONC-approved errata version “HL7® FHIR® Bulk Data Access (Flat FHIR®)
 <p>Updated Testing Tool and Test Tool Documentation links.</p>
 </blockquote></td>
 <td>04-06-2022</td>
+</tr>
+<tr class="even">
+<td>2.1</td>
+<td><blockquote>
+<p>Removed Step 13, for Paragraph (g)(10)(v)(A) – “Authentication and
+authorization for patient and user scopes”, which tested the response to
+an invalid “launch” parameter for EHR-Launch.</p>
+</blockquote></td>
+<td>06-01-22</td>
 </tr>
 </tbody>
 </table>
@@ -300,10 +309,10 @@ demonstration of application programming interface technology.
 Paragraph (g)(10)(i)(A)
 
 § 170.215(a)(1) [Health Level 7 (HL7®) Version 4.0.1 Fast Healthcare
-Interoperability Resources Specification (FHIR®) Release 4, October 30,
+Interoperability Resources Specification (FHIR®®) Release 4, October 30,
 2019](http://hl7.org/fhir/directory.html)
 
-> § 170.215(a)(2) [FHIR® US Core Implementation Guide STU
+> § 170.215(a)(2) [FHIR®® US Core Implementation Guide STU
 > V3.1.1](http://hl7.org/fhir/us/core/STU3.1.1/)
 
 § 170.213 [United States Core Data for Interoperability
@@ -311,8 +320,8 @@ Interoperability Resources Specification (FHIR®) Release 4, October 30,
 
 Paragraph (g)(10)(i)(B)
 
-§ 170.215(a)(1) [*HL7® Version 4.0.1 FHIR® Release 4, October 30,
-2019*](http://hl7.org/fhir/directory.html)
+§ 170.215(a)(1) [HL7® Version 4.0.1 FHIR® Release 4, October 30,
+2019](http://hl7.org/fhir/directory.html)
 
 > § 170.215(a)(2) [FHIR® US Core Implementation Guide STU
 > V3.1.1](http://hl7.org/fhir/us/core/STU3.1.1/)
@@ -454,7 +463,7 @@ including:</p></li>
 </ol>
 <ul>
 <li><p>Using TLS version 1.2 or higher; and</p></li>
-<li><p>Conformance to FHIR Communications Security
+<li><p>Conformance to FHIR® Communications Security
 requirements.</p></li>
 </ul></td>
 <td><p><strong><u>Secure Connection</u></strong></p>
@@ -466,7 +475,7 @@ in § 170.215(a)(2) and § 170.215(a)(3), including:</p></li>
 </ol>
 <ul>
 <li><p>Using TLS version 1.2 or higher; and</p></li>
-<li><p>Conformance to FHIR Communications Security
+<li><p>Conformance to FHIR® Communications Security
 requirements.</p></li>
 </ul></td>
 </tr>
@@ -498,7 +507,7 @@ and “Both” (“EHR-Launch” and “Standalone-Launch”) as specified in th
 implementation specification adopted in § 170.215(a)(3).</p></li>
 <li><p>[EHR-Launch] The health IT developer demonstrates the ability of
 the Health IT Module to initiate a “launch sequence” using the
-“launch-ehr" “SMART on FHIR Core Capability” SMART EHR Launch mode
+“launch-ehr" “SMART on FHIR® Core Capability” SMART EHR Launch mode
 detailed in the implementation specification adopted in § 170.215(a)(3),
 including:</p></li>
 </ol>
@@ -510,8 +519,8 @@ and</p></li>
 <ol start="3" type="1">
 <li><p>[Standalone-Launch] The health IT developer demonstrates the
 ability of the Health IT Module to launch using the “launch-standalone"
-“SMART on FHIR Core Capability” SMART Standalone Launch mode detailed in
-the implementation specification adopted in § 170.215(a)(3).</p></li>
+“SMART on FHIR® Core Capability” SMART Standalone Launch mode detailed
+in the implementation specification adopted in § 170.215(a)(3).</p></li>
 <li><p>[Standalone-Launch] The health IT developer demonstrates the
 ability of the Health IT Module to support SMART’s public client
 profile.</p></li>
@@ -522,7 +531,7 @@ adopted in § 170.215(a)(1):</p></li>
 </ol>
 <ul>
 <li><p>The “.well-known/smart-configuration.json” path; and</p></li>
-<li><p>A FHIR “CapabilityStatement”.</p></li>
+<li><p>A FHIR® “CapabilityStatement”.</p></li>
 </ul>
 <ol start="6" type="1">
 <li><p>[Both] The health IT developer demonstrates the ability of the
@@ -533,12 +542,12 @@ following as detailed in the implementation specification adopted in §
 <ul>
 <li><p>“authorization_endpoint”;</p></li>
 <li><p>“token_endpoint”; and</p></li>
-<li><p>“capabilities” (including support for all the “SMART on FHIR Core
-Capabilities”).</p></li>
+<li><p>“capabilities” (including support for all the “SMART on FHIR®
+Core Capabilities”).</p></li>
 </ul>
 <ol start="7" type="1">
 <li><p>[Both] The health IT developer demonstrates the ability of the
-FHIR “CapabilityStatement” to support at least the following components
+FHIR® “CapabilityStatement” to support at least the following components
 as detailed in the implementation specification adopted in §
 170.215(a)(3) and standard adopted in § 170.215(a)(1),
 including:</p></li>
@@ -569,22 +578,22 @@ capabilities according to the implementation specification adopted in §
 170.215(a)(3) and standard adopted in § 170.215(b):</p></li>
 </ol>
 <ul>
-<li><p>“openid” (to support “sso-openid-connect” “SMART on FHIR Core
+<li><p>“openid” (to support “sso-openid-connect” “SMART on FHIR® Core
 Capability”);</p></li>
-<li><p>“fhirUser” (to support “sso-openid-connect” “SMART on FHIR Core
+<li><p>“FHIR®User” (to support “sso-openid-connect” “SMART on FHIR® Core
 Capability”);</p></li>
-<li><p>“need_patient_banner” (to support “context-banner” “SMART on FHIR
+<li><p>“need_patient_banner” (to support “context-banner” “SMART on
+FHIR® Core Capability” for EHR-Launch mode only);</p></li>
+<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR®
 Core Capability” for EHR-Launch mode only);</p></li>
-<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR Core
-Capability” for EHR-Launch mode only);</p></li>
 <li><p>“launch/patient” (to support “context-standalone-patient” “SMART
-on FHIR Core Capability” for Standalone-Launch mode only);</p></li>
+on FHIR® Core Capability” for Standalone-Launch mode only);</p></li>
 <li><p>“launch” (for EHR-Launch mode only);</p></li>
-<li><p>“offline_access” (to support “permission-offline” “SMART on FHIR
+<li><p>“offline_access” (to support “permission-offline” “SMART on FHIR®
 Core Capability”);</p></li>
 <li><p>Patient-level scopes (to support “permission-patient” “SMART on
-FHIR Core Capability”); and</p></li>
-<li><p>User-level scopes (to support “permission-user” “SMART on FHIR
+FHIR® Core Capability”); and</p></li>
+<li><p>User-level scopes (to support “permission-user” “SMART on FHIR®
 Core Capability”).</p></li>
 </ul>
 <ol start="10" type="1">
@@ -592,8 +601,8 @@ Core Capability”).</p></li>
 Health IT Module to evaluate the authorization request and request
 end-user input, if applicable (required for patient-facing
 applications), including the ability for the end-user to authorize an
-application to receive EHI based on FHIR resource-level scopes for all
-of the FHIR resources associated with the profiles specified in the
+application to receive EHI based on FHIR® resource-level scopes for all
+of the FHIR® resources associated with the profiles specified in the
 standard adopted in § 170.213 and implementation specification adopted
 in § 170.215(a)(2), including:</p></li>
 </ol>
@@ -624,20 +633,14 @@ communicating the application’s request for the “offline_access”
 scope.</p></li>
 <li><p>[Both] The health IT developer demonstrates the ability of the
 Health IT Module to deny an application’s authorization request
-according to a patient’s preferences selected in steps 10 and 11 of this
-section in accordance with the implementation specification adopted in §
-170.215(a)(3).</p></li>
-<li><p>[EHR-Launch] The health IT developer demonstrates the ability of
-the Health IT Module to return an error response if the “launch”
-parameter provided by an application to the Health IT Module in step 8
-of this section does not match the “launch” parameter originally
-provided to an application by the Health IT Module in step 2 of this
-section according to the implementation specification adopted in §
-170.215(a)(3).</p></li>
+according to a patient’s preferences selected in steps 10, and 11, of
+this section in accordance with the implementation specification adopted
+in § 170.215(a)(3).</p></li>
+<li></li>
 <li><p>[Both] The health IT developer demonstrates the ability of the
 Health IT Module to return an error response if the "aud" parameter
-provided by an application to the Health IT Module in Step 8 is not a
-valid FHIR resource server associated with the Health IT Module's
+provided by an application to the Health IT Module in Step 8, is not a
+valid FHIR® resource server associated with the Health IT Module's
 authorization server.</p></li>
 <li><p>[Both] The health IT developer demonstrates the ability of the
 Health IT Module to grant an application access to EHI by returning an
@@ -681,12 +684,12 @@ months);</p></li>
 <li><p>HTTP “Pragma” response header field with a value of
 “no-cache”;</p></li>
 <li><p>“patient” (to support “context-ehr-patient” and
-“context-standalone-patient” “SMART on FHIR Core
+“context-standalone-patient” “SMART on FHIR® Core
 Capabilities”);</p></li>
-<li><p>“need_patient_banner” (to support “context-banner” “SMART on FHIR
-Core Capability” for EHR-Launch mode only); and</p></li>
-<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR Core
-Capability” for EHR-Launch mode only).</p></li>
+<li><p>“need_patient_banner” (to support “context-banner” “SMART on
+FHIR® Core Capability” for EHR-Launch mode only); and</p></li>
+<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR®
+Core Capability” for EHR-Launch mode only).</p></li>
 </ul>
 <ol start="18" type="1">
 <li><p>[Both] The health IT developer demonstrates the ability of the
@@ -706,9 +709,10 @@ Health IT Module to deny an application’s authorization request in
 accordance with the implementation specification adopted in §
 170.215(a)(3).</p></li>
 <li><p>[Standalone-Launch] The health IT developer demonstrates the
-ability of the Health IT Module to return a “Patient” FHIR resource that
-matches the patient context provided in step 9 of this section according
-to the implementation specification adopted in § 170.215(a)(2).</p></li>
+ability of the Health IT Module to return a “Patient” FHIR® resource
+that matches the patient context provided in step 9 of this section
+according to the implementation specification adopted in §
+170.215(a)(2).</p></li>
 <li><p>[Both] The health IT developer demonstrates the ability of the
 Health IT Module to grant an access token when a refresh token is
 supplied according to the implementation specification adopted in §
@@ -741,7 +745,7 @@ support the following for “EHR-Launch,” “Standalone-Launch,” and “Both
 implementation specification adopted in § 170.215(a)(3).</p></li>
 <li><p>[EHR-Launch] The tester verifies the ability of the Health IT
 Module to initiate a “launch sequence” using the “launch-ehr" “SMART on
-FHIR Core Capability” SMART EHR Launch mode detailed in the
+FHIR® Core Capability” SMART EHR Launch mode detailed in the
 implementation specification adopted in § 170.215(a)(3),
 including:</p></li>
 </ol>
@@ -752,7 +756,7 @@ and</p></li>
 </ul>
 <ol start="3" type="1">
 <li><p>[Standalone-Launch] The tester verifies the ability of the Health
-IT Module to launch using the “launch-standalone" “SMART on FHIR Core
+IT Module to launch using the “launch-standalone" “SMART on FHIR® Core
 Capability” SMART Standalone Launch mode detailed in the implementation
 specification adopted in § 170.215(a)(3).</p></li>
 <li><p>[Standalone-Launch] The tester verifies the ability of the Health
@@ -764,7 +768,7 @@ adopted in § 170.215(a)(3) and standard adopted in §
 </ol>
 <ul>
 <li><p>The “.well-known/smart-configuration.json” path; and</p></li>
-<li><p>A FHIR “CapabilityStatement”.</p></li>
+<li><p>A FHIR® “CapabilityStatement”.</p></li>
 </ul>
 <ol start="6" type="1">
 <li><p>[Both] The tester verifies the ability of the
@@ -775,11 +779,11 @@ following as detailed in the implementation specification adopted in §
 <ul>
 <li><p>“authorization_endpoint”;</p></li>
 <li><p>“token_endpoint”; and</p></li>
-<li><p>“capabilities” (including support for all the “SMART on FHIR Core
-Capabilities”).</p></li>
+<li><p>“capabilities” (including support for all the “SMART on FHIR®
+Core Capabilities”).</p></li>
 </ul>
 <ol start="7" type="1">
-<li><p>[Both] The tester verifies the ability of the FHIR
+<li><p>[Both] The tester verifies the ability of the FHIR®
 “CapabilityStatement” to support at least the following components as
 detailed in the implementation specification adopted in § 170.215(a)(3)
 and standard adopted in § 170.215(a)(1), including:</p></li>
@@ -810,22 +814,22 @@ implementation specification adopted in § 170.215(a)(3) and standard
 adopted in § 170.215(b):</p></li>
 </ol>
 <ul>
-<li><p>“openid” (to support “sso-openid-connect” “SMART on FHIR Core
+<li><p>“openid” (to support “sso-openid-connect” “SMART on FHIR® Core
 Capability”);</p></li>
-<li><p>“fhirUser” (to support “sso-openid-connect” “SMART on FHIR Core
+<li><p>“FHIR®User” (to support “sso-openid-connect” “SMART on FHIR® Core
 Capability”);</p></li>
-<li><p>“need_patient_banner” (to support “context-banner” “SMART on FHIR
+<li><p>“need_patient_banner” (to support “context-banner” “SMART on
+FHIR® Core Capability” for EHR-Launch mode only);</p></li>
+<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR®
 Core Capability” for EHR-Launch mode only);</p></li>
-<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR Core
-Capability” for EHR-Launch mode only);</p></li>
 <li><p>“launch/patient” (to support “context-standalone-patient” “SMART
-on FHIR Core Capability” for Standalone-Launch mode only);</p></li>
+on FHIR® Core Capability” for Standalone-Launch mode only);</p></li>
 <li><p>“launch” (for EHR-Launch mode only);</p></li>
-<li><p>“offline_access” (to support “permission-offline” “SMART on FHIR
+<li><p>“offline_access” (to support “permission-offline” “SMART on FHIR®
 Core Capability”);</p></li>
 <li><p>Patient-level scopes (to support “permission-patient” “SMART on
-FHIR Core Capability”); and</p></li>
-<li><p>User-level scopes (to support “permission-user” “SMART on FHIR
+FHIR® Core Capability”); and</p></li>
+<li><p>User-level scopes (to support “permission-user” “SMART on FHIR®
 Core Capability”).</p></li>
 </ul>
 <ol start="10" type="1">
@@ -833,7 +837,7 @@ Core Capability”).</p></li>
 evaluate the authorization request and request end-user input, if
 applicable (required for patient-facing applications), including the
 ability for the end-user to authorize an application to receive EHI
-based on FHIR resource-level scopes for all of the FHIR resources
+based on FHIR® resource-level scopes for all of the FHIR® resources
 associated with the profiles specified in the standard adopted in
 § 170.213 and implementation specification adopted in § 170.215(a)(2),
 including:</p></li>
@@ -864,18 +868,13 @@ the ability for the end-user to explicitly enable / disable the
 request for the “offline_access” scope.</p></li>
 <li><p>[Both] The tester verifies the ability of the Health IT Module to
 deny an application’s authorization request according to a patient’s
-preferences selected in steps 10 and 11 of this section in accordance
+preferences selected in steps 10, and 11, of this section in accordance
 with the implementation specification adopted in §
 170.215(a)(3).</p></li>
-<li><p>[EHR-Launch] The tester verifies the ability of the Health IT
-Module to return an error response if the “launch” parameter provided by
-an application to the Health IT Module in step 8 of this section does
-not match the “launch” parameter originally provided to an application
-by the Health IT Module in step 2 of this section according to the
-implementation specification adopted in § 170.215(a)(3).</p></li>
+<li></li>
 <li><p>[Both] The tester verifies the ability of the Health IT Module to
 return an error response if the "aud" parameter provided by an
-application to the Health IT Module in Step 8 is not a valid FHIR
+application to the Health IT Module in Step 8, is not a valid FHIR®
 resource server associated with the Health IT Module's authorization
 server.</p></li>
 <li><p>[Both] The tester verifies the ability of the Health IT Module to
@@ -918,12 +917,12 @@ months);</p></li>
 <li><p>HTTP “Pragma” response header field with a value of
 “no-cache”;</p></li>
 <li><p>“patient” (to support “context-ehr-patient” and
-“context-standalone-patient” “SMART on FHIR Core
+“context-standalone-patient” “SMART on FHIR® Core
 Capabilities”);</p></li>
-<li><p>“need_patient_banner” (to support “context-banner” “SMART on FHIR
-Core Capability” for EHR-Launch mode only); and</p></li>
-<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR Core
-Capability” for EHR-Launch mode only).</p></li>
+<li><p>“need_patient_banner” (to support “context-banner” “SMART on
+FHIR® Core Capability” for EHR-Launch mode only); and</p></li>
+<li><p>“smart_style_url” (to support “context-style” “SMART on FHIR®
+Core Capability” for EHR-Launch mode only).</p></li>
 </ul>
 <ol start="18" type="1">
 <li><p>[Both] The tester verifies the ability of the Health IT Module to
@@ -942,7 +941,7 @@ can be retrieved via JWKS URI.</p></li>
 deny an application’s authorization request in accordance with the
 implementation specification adopted in § 170.215(a)(3).</p></li>
 <li><p>[Standalone-Launch] The tester verifies the ability of the Health
-IT Module to return a “Patient” FHIR resource that matches the patient
+IT Module to return a “Patient” FHIR® resource that matches the patient
 context provided in step 9 of this section according to the
 implementation specification adopted in § 170.215(a)(2).</p></li>
 <li><p>[Both] The tester verifies the ability of the Health IT Module to
@@ -1124,9 +1123,9 @@ to the implementation specification adopted in § 170.215(a)(4):</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
 receive and process the JWK structure via a TLS-protected URL to support
 authorization for system scopes in § 170.315(g)(10)(v)(B).</p></li>
-<li><p>The tester verifies that the Health IT Module does not cache a
-JWK Set received via a TLS-protected URL for longer than the
-“cache-control” header sent by an application indicates.</p></li>
+<li><p>The tester verifies the Health IT Module does not cache a JWK Set
+received via a TLS-protected URL for longer than the “cache-control”
+header sent by an application indicates.</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
 validate an application’s JWT, including its JSON Web Signatures,
 according to the implementation specification adopted in §
@@ -1223,7 +1222,7 @@ operations and parameters for all the data included in the standard
 adopted in § 170.213.</p></li>
 <li><p>The health IT developer demonstrates the ability of the Health IT
 Module to support a resource search for the provenance target
-“(_revIncludes: Provenance:target)” for all the FHIR resources included
+“(_revIncludes: Provenance:target)” for all the FHIR® resources included
 in the standard adopted in § 170.213 and implementation specification
 adopted in § 170.215(a)(2) according to the “Basic Provenance Guidance”
 section of the implementation specification adopted in §
@@ -1261,7 +1260,7 @@ parameters for all the data included in the standard adopted in §
 170.213.</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
 support a resource search for the provenance target “(_revIncludes:
-Provenance:target)” for all the FHIR resources included in the standard
+Provenance:target)” for all the FHIR® resources included in the standard
 adopted in § 170.213 and implementation specification adopted in §
 170.215(a)(2) according to the “Basic Provenance Guidance” section of
 the implementation specification adopted in § 170.215(a)(2).</p></li>
@@ -1305,7 +1304,7 @@ Paragraph (g)(10)(i) – Data response
 Patients</u></strong></p>
 <ol type="1">
 <li><p>For responses to data for single and multiple patients as
-described in steps 7 and 8 of this section respectively, the health IT
+described in steps 7, and 8, of this section respectively, the health IT
 developer demonstrates the ability of the Health IT Module to respond to
 requests for data according to the implementation specification adopted
 in § 170.215(a)(2), including the following steps.</p></li>
@@ -1321,24 +1320,24 @@ and / or “must support” are included;</p></li>
 within the bound “ValueSet”;</p></li>
 <li><p>All information is accurate and without omission; and</p></li>
 <li><p>All references within the resources can be resolved and
-validated, as applicable, according to steps 2-6 of this
+validated, as applicable, according to steps 2-6, of this
 section.</p></li>
 </ul>
 <ol start="3" type="1">
 <li><p>The health IT developer demonstrates the ability of the Health IT
-Module to support a “Provenance” FHIR resource for all the FHIR
+Module to support a “Provenance” FHIR® resource for all the FHIR®
 resources included in the standard adopted in § 170.213 and
 implementation specification adopted in § 170.215(a)(2) according to the
 “Basic Provenance Guidance” section of the implementation specification
 adopted in § 170.215(a)(2).</p></li>
 <li><p>The health IT developer demonstrates the ability of the Health IT
-Module to support a “DocumentReference” and/or “DiagnosticReport” FHIR
+Module to support a “DocumentReference” and/or “DiagnosticReport” FHIR®
 resource for each of the “Clinical Notes” and “Diagnostic Reports”
 included in and according to the “Clinical Notes Guidance” section of
 the implementation specification adopted in § 170.215(a)(2).</p></li>
 <li><p>If supported, and for responses to data for a single patient
 only, the health IT developer demonstrates the ability of the Health IT
-Module to support a “Medication” FHIR resource according to the
+Module to support a “Medication” FHIR® resource according to the
 “Medication List Guidance” section of the implementation specification
 adopted in § 170.215(a)(2).</p></li>
 <li><p>The health IT developer demonstrates the ability of the Health IT
@@ -1371,10 +1370,10 @@ Data</u></strong></p>
 <li><p>The health IT developer demonstrates the ability of the Health IT
 Module to respond to requests for multiple patients’ data according to
 the implementation specification adopted in § 170.215(a)(4) for all of
-the FHIR resources associated with the profiles and Data Elements
+the FHIR® resources associated with the profiles and Data Elements
 specified in and according to the standard adopted in § 170.213 and
 implementation specification adopted in § 170.215(a)(2), including the
-following FHIR resources:</p></li>
+following FHIR® resources:</p></li>
 </ol>
 <ul>
 <li><p>“AllergyIntolerance”;</p></li>
@@ -1399,9 +1398,9 @@ following FHIR resources:</p></li>
 </ul>
 <ol start="9" type="1">
 <li><p>The health IT developer demonstrates the ability of the Health IT
-Module to limit the data returned to only those FHIR resources for which
-the client is authorized according to the implementation specification
-adopted in § 170.215(a)(4).</p></li>
+Module to limit the data returned to only those FHIR® resources for
+which the client is authorized according to the implementation
+specification adopted in § 170.215(a)(4).</p></li>
 <li><p>The health IT developer demonstrates the ability of the Health IT
 Module to support a successful data response according to the
 implementation adopted in § 170.215(a)(4).</p></li>
@@ -1426,7 +1425,7 @@ group identifier provided during the “group-export” request.</p></li>
 Patients</u></strong></p>
 <ol type="1">
 <li><p>For responses to data for single and multiple patients as
-described in steps 7 and 8 of this section respectively, the tester
+described in steps 7, and 8, of this section respectively, the tester
 verifies the ability of the Health IT Module to respond to requests for
 data according to the implementation specification adopted in §
 170.215(a)(2), including the following steps.</p></li>
@@ -1442,25 +1441,25 @@ and / or “must support” are included;</p></li>
 within the bound “ValueSet”;</p></li>
 <li><p>All information is accurate and without omission; and</p></li>
 <li><p>All references within the resources can be resolved and
-validated, as applicable, according to steps 2-6 of this
+validated, as applicable, according to steps 2-6, of this
 section.</p></li>
 </ul>
 <ol start="3" type="1">
 <li><p>The tester verifies the ability of the Health IT Module to
-support a “Provenance” FHIR resource for all the FHIR resources included
-in the standard adopted in § 170.213 and implementation specification
-adopted in § 170.215(a)(2) according to the “Basic Provenance Guidance”
-section of the implementation specification adopted in §
-170.215(a)(2).</p></li>
+support a “Provenance” FHIR® resource for all the FHIR® resources
+included in the standard adopted in § 170.213 and implementation
+specification adopted in § 170.215(a)(2) according to the “Basic
+Provenance Guidance” section of the implementation specification adopted
+in § 170.215(a)(2).</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
-support a “DocumentReference” and/or “DiagnosticReport” FHIR resource
+support a “DocumentReference” and/or “DiagnosticReport” FHIR® resource
 for each of the “Clinical Notes” and “Diagnostic Reports” included in
 and according to the “Clinical Notes Guidance” section of the
 implementation specification adopted in § 170.215(a)(2).</p></li>
 <li><p>If supported, and for responses to data for a single patient
 only, the tester verifies the ability of the Health IT Module to support
-a “Medication” FHIR resource according to the “Medication List Guidance”
-section of the implementation specification adopted in §
+a “Medication” FHIR® resource according to the “Medication List
+Guidance” section of the implementation specification adopted in §
 170.215(a)(2).</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
 support “Missing Data” according to the implementation specification
@@ -1491,9 +1490,9 @@ Data</u></strong></p>
 <li><p>The tester verifies the ability of the Health IT Module to
 respond to requests for multiple patients’ data according to the
 implementation specification adopted in § 170.215(a)(4) for all of the
-FHIR resources associated with the profiles and Data Elements specified
+FHIR® resources associated with the profiles and Data Elements specified
 in and according to the standard adopted in § 170.213 and implementation
-specification adopted in § 170.215(a)(2), including the following FHIR
+specification adopted in § 170.215(a)(2), including the following FHIR®
 resources:</p></li>
 </ol>
 <ul>
@@ -1519,7 +1518,7 @@ resources:</p></li>
 </ul>
 <ol start="9" type="1">
 <li><p>The tester verifies the ability of the Health IT Module to limit
-the data returned to only those FHIR resources for which the client is
+the data returned to only those FHIR® resources for which the client is
 authorized according to the implementation specification adopted in §
 170.215(a)(4).</p></li>
 <li><p>The tester verifies the ability of the Health IT Module to
@@ -1538,9 +1537,9 @@ specification adopted in § 170.215(a)(4).</p></li>
 support a file request according to the implementation specification
 adopted in § 170.215(a)(4), including support for the “ndjson” format
 for files provided.</p></li>
-<li><p>The tester verifies that the information provided as part of this
-data response includes data for patients in the group identifier
-provided during the “group-export” request.</p></li>
+<li><p>The tester verifies the information provided as part of this data
+response includes data for patients in the group identifier provided
+during the “group-export” request.</p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -1584,7 +1583,7 @@ registration.</p></li>
 </ul>
 <ol start="2" type="1">
 <li><p>The health IT developer demonstrates that the documentation
-described in step 1 of this section is available via a publicly
+described in step 1, of this section is available via a publicly
 accessible hyperlink that does not require preconditions or additional
 steps to access.</p></li>
 <li><p>To fulfill the API Maintenance of Certification requirement at §
@@ -1593,8 +1592,8 @@ of its certified API technology service base URLs.</p></li>
 </ol></td>
 <td><p><strong><u>API Documentation Requirements</u></strong></p>
 <ol type="1">
-<li><p>The tester verifies that the documentation supplied by the health
-IT developer describing the API(s) of the Health IT Module includes at a
+<li><p>The tester verifies the documentation supplied by the health IT
+developer describing the API(s) of the Health IT Module includes at a
 minimum:</p></li>
 </ol>
 <ul>
@@ -1611,7 +1610,7 @@ returns;</p></li>
 registration.</p></li>
 </ul>
 <ol start="2" type="1">
-<li><p>The tester verifies that the documentation described in step 1 of
+<li><p>The tester verifies the documentation described in step 1, of
 this section is available via a publicly accessible hyperlink that does
 not require preconditions or additional steps to access.</p></li>
 <li><p>To fulfill the API Maintenance of Certification requirement at §
